@@ -81,7 +81,7 @@ $myprog \
 ## 5. Summary of the results
 
 Script to summarize the results, generate manuscript plots and supplement tables
-- [extractPheno.R](https://github.com/TabeaSchoeler/TS2023_UKBBlongitudinal/blob/main/analysis/extractPheno.R)
+- [summary.R](https://github.com/TabeaSchoeler/TS2023_UKBBlongitudinal/blob/main/analysis/summary.R)
 
 ## Manuscript figures
 
