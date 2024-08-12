@@ -7,9 +7,6 @@ Functions used to run the simulations:
 Script to run the simulations
 - [sim.R](https://github.com/TabeaSchoeler/TS2023_UKBBlongitudinal/blob/main/analysis/sim.R)
 
-Resulting plot:
-![](results/figures/simPlot.png)
-
 
 ## 2. Preprocessing of phenotype data
 
@@ -86,4 +83,10 @@ $myprog \
 Script to summarize the results, generate manuscript plots and supplement tables
 - [extractPheno.R](https://github.com/TabeaSchoeler/TS2023_UKBBlongitudinal/blob/main/analysis/extractPheno.R)
 
+## Manuscript figures
 
+### Figure 1
+![](results/figures/DAG.png)
+
+### Figure 2
+![](results/figures/simPlot.png)
