@@ -1,6 +1,6 @@
 # Combining cross-sectional and longitudinal genomic approaches to dissect genetic and environmental contributions to cognitive and physical aging
 
-## Simulation work assessing two-wave models of change for longitudinal genetic effect estimation
+## 1. Simulation work assessing two-wave models of change for longitudinal genetic effect estimation
 
 Functions used to run the simulations:
 - [simFunc.R](https://github.com/TabeaSchoeler/TS2023_UKBBlongitudinal/blob/main/analysis/simFunc.R)
@@ -10,7 +10,7 @@ Script to run the simulations
 Resulting plot:
 XXX
 
-## Preprocessing of phenotype data
+## 2. Preprocessing of phenotype data
 
 ### Extract and recode phenotype data
 
@@ -32,7 +32,7 @@ XXX
 - [bias.R](https://github.com/TabeaSchoeler/TS2023_UKBBlongitudinal/blob/main/analysis/bias.R)
 
 
-## Perform genome-wide scans using REGENIE
+## 3. Perform genome-wide scans using REGENIE
 
 ### GWA in REGENIE - Step 1:
 
@@ -73,11 +73,16 @@ $myprog \
 --out $HOME/output/gwas/chr"$a" 
 ```
 
-- Process the results using [processREGENIE.R](https://github.com/TabeaSchoeler/TS2023_UKBBlongitudinal/blob/main/analysis/processGWA.R)
+- Process the results using [processGWA.R](https://github.com/TabeaSchoeler/TS2023_UKBBlongitudinal/blob/main/analysis/processGWA.R)
 
 
-## Mendelian Randomization
+## 4. Mendelian Randomization
 
 - Perform GWA and process the results using [mr.R](https://github.com/TabeaSchoeler/TS2023_UKBBlongitudinal/blob/main/analysis/mr.R)
+
+## 5. Summary of the results
+
+Script to summarize the results, generate manuscript plots and supplement tables
+- [extractPheno.R](https://github.com/TabeaSchoeler/TS2023_UKBBlongitudinal/blob/main/analysis/extractPheno.R)
 
 
