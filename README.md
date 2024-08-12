@@ -8,7 +8,8 @@ Script to run the simulations
 - [sim.R](https://github.com/TabeaSchoeler/TS2023_UKBBlongitudinal/blob/main/analysis/sim.R)
 
 Resulting plot:
-XXX
+![](results/figures/simPlot.png)
+
 
 ## 2. Preprocessing of phenotype data
 
