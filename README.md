@@ -1,4 +1,4 @@
-# Combining cross-sectional and longitudinal genomic approaches to dissect genetic and environmental contributions to cognitive and physical aging
+# Combining cross-sectional and longitudinal genomic approaches to identify determinants of cognitive and physical decline
 
 ## 1. Simulation work assessing two-wave models of change for longitudinal genetic effect estimation
 
