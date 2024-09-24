@@ -81,11 +81,11 @@ $myprog \
 
 - Run LD score regression on each aging phenotype [ldsc.R](https://github.com/TabeaSchoeler/TS2023_UKBBlongitudinal/blob/main/analysis/ldsc.R)
 
-## 4. Mendelian Randomization
+## 6. Mendelian Randomization
 
 - Perform GWA and process the results using [mr.R](https://github.com/TabeaSchoeler/TS2023_UKBBlongitudinal/blob/main/analysis/mr.R)
 
-## 5. Summary of the results
+## 7. Summary of the results
 
 Script to summarize the results, generate manuscript plots and supplement tables
 - [summary.R](https://github.com/TabeaSchoeler/TS2023_UKBBlongitudinal/blob/main/analysis/summary.R)
