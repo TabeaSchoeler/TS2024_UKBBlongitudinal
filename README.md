@@ -87,6 +87,9 @@ $myprog \
 
 ## 7. Summary of the results
 
-Script to summarize the results, generate manuscript plots and supplement tables
-- [summary.R](https://github.com/TabeaSchoeler/TS2023_UKBBlongitudinal/blob/main/analysis/summary.R)
+Script to summarize the results and generate manuscript plots
+- [summaryLongitudinal.R](https://github.com/TabeaSchoeler/TS2023_UKBBlongitudinal/blob/main/analysis/summaryLongitudinal.R)
+
+- Script to generate supplement tables
+- [createTables.R](https://github.com/TabeaSchoeler/TS2023_UKBBlongitudinal/blob/main/analysis/createTables.R)
 
