@@ -25,12 +25,12 @@ Script to run the simulations
 
 - [longitudinal.R](https://github.com/TabeaSchoeler/TS2023_UKBBlongitudinal/blob/main/analysis/longitudinal.R)
 
-## Sensitivity analyses assessing participation bias
+## 3. Sensitivity analyses assessing participation bias
 
 - [bias.R](https://github.com/TabeaSchoeler/TS2023_UKBBlongitudinal/blob/main/analysis/bias.R)
 
 
-## 3. Perform genome-wide scans using REGENIE
+## 4. Perform genome-wide scans using REGENIE
 
 ### GWA in REGENIE - Step 1:
 
@@ -78,19 +78,19 @@ $myprog \
 
 - Process the results using [processGWA.R](https://github.com/TabeaSchoeler/TS2023_UKBBlongitudinal/blob/main/analysis/processGWA.R)
 
-## 4. Perform Inverse Probability Weighted GWA
+## 5. Perform Inverse Probability Weighted GWA
 
 - run LDAK [ldak.R](https://github.com/TabeaSchoeler/TS2023_UKBBlongitudinal/blob/main/analysis/ldak.R)
 
-## 5. LD score regression
+## 6. LD score regression
 
 - Run LD score regression on each aging phenotype [ldsc.R](https://github.com/TabeaSchoeler/TS2023_UKBBlongitudinal/blob/main/analysis/ldsc.R)
 
-## 6. Mendelian Randomization
+## 7. Mendelian Randomization
 
 - Perform GWA and process the results using [mr.R](https://github.com/TabeaSchoeler/TS2023_UKBBlongitudinal/blob/main/analysis/mr.R)
 
-## 7. Summary of the results
+## 8. Summary of the results
 
 - Script to summarize the results and generate manuscript plots: [summaryLongitudinal.R](https://github.com/TabeaSchoeler/TS2023_UKBBlongitudinal/blob/main/analysis/summaryLongitudinal.R)
 
