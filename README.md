@@ -37,17 +37,22 @@ Script to run the simulations
 ```
 $myprog \
 --step 1 \
---bed $UKBB/plink/_001_ukb_cal_allchr_v2 \
---extract $UKBB/plink/qc_pass_for_regenie.snplist \
---phenoFile $HOME/data/gwas/$run \
---covarFile $HOME/data/gwas/${run}Covar \
---covarColList AGE,PC1,PC2,PC3,PC4,PC5,PC6,PC7,PC8,PC9,PC10 \
+--bed $HOME/data/ukbb/_001_ukb_cal_allChrs \
+--phenoFile $HOME/projects/$project/data/gwa \
+--keep $HOME/data/ukbb/qc_pass_MAC100.id \
+--extract $HOME/data/ukbb/qc_pass_MAC100.snplist \
+--force-qt \
+--minINFO 0.9 \
+--phenoCol $run \
+--covarFile $HOME/projects/$project/data/gwaCovar \
+--covarColList PC1,PC2,PC3,PC4,PC5,PC6,PC7,PC8,PC9,PC10 \
 --catCovarList SEX,batch \
 --maxCatLevels 3000 \
 --bsize 1000 \
 --lowmem \
---lowmem-prefix $HOME/data/gwas/ \
---out ${HOME}/output/gwas/${run}_s1 \
+--force-qt \
+--lowmem-prefix $HOME/projects/$project/output/gwas/${run} \
+--out ${HOME}/projects/$project/output/gwas/${run}_s1 \
 --threads $SLURM_CPUS_PER_TASK
 ```
 
@@ -56,19 +61,19 @@ $myprog \
 ```
 $myprog \
 --step 2 \
---bgen $UKBB/imp/_001_ukb_imp_chr"$a"_v2.REGENIE.bgen \
+--pgen $UKBB/pgen/ukb22828_c"$a"_b0_v3 \
 --ref-first \
---sample $UKBB/imp/ukb1638_imp_chr1_v2_s487398.sample \
---phenoFile $HOME/data/gwas/$run \
---covarFile $HOME/data/gwas/${run}Covar \
---covarColList AGE,PC1,PC2,PC3,PC4,PC5,PC6,PC7,PC8,PC9,PC10 \
+--phenoFile $HOME/projects/$project/data/gwa \
+--covarFile $HOME/projects/$project/data/gwaCovar \
 --catCovarList SEX,batch \
 --maxCatLevels 3000 \
+--phenoCol $run \
 --approx \
---pred $HOME/output/gwas/${run}_s1_pred.list \
+--pred $HOME/projects/$project/output/gwas/${run}_s1_pred.list \
 --bsize 400 \
---split \
---out $HOME/output/gwas/chr"$a" 
+--out $HOME/projects/$project/output/gwas/chr${a}_${run} \
+--force-qt \
+--threads $SLURM_CPUS_PER_TASK
 ```
 
 - Process the results using [processGWA.R](https://github.com/TabeaSchoeler/TS2023_UKBBlongitudinal/blob/main/analysis/processGWA.R)
