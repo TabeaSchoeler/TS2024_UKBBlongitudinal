@@ -73,6 +73,13 @@ $myprog \
 
 - Process the results using [processGWA.R](https://github.com/TabeaSchoeler/TS2023_UKBBlongitudinal/blob/main/analysis/processGWA.R)
 
+## 4. Perform Inverse Probability Weighted GWA
+
+- run LDAK [ldak.R](https://github.com/TabeaSchoeler/TS2023_UKBBlongitudinal/blob/main/analysis/ldak.R)
+
+## 5. LD score regression
+
+- Run LD score regression on each aging phenotype [ldsc.R](https://github.com/TabeaSchoeler/TS2023_UKBBlongitudinal/blob/main/analysis/ldsc.R)
 
 ## 4. Mendelian Randomization
 
