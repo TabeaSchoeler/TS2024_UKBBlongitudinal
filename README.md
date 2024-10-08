@@ -83,7 +83,7 @@ $myprog \
 - run LDAK [ldak.R](https://github.com/TabeaSchoeler/TS2023_UKBBlongitudinal/blob/main/analysis/ldak.R)
 
 
-## 6. LD score regression
+## 6. LD score regression
 
 - Run LD score regression on each aging phenotype [ldsc.R](https://github.com/TabeaSchoeler/TS2023_UKBBlongitudinal/blob/main/analysis/ldsc.R)
 
