@@ -1,5 +1,8 @@
 # Combining cross-sectional and longitudinal genomic approaches to identify determinants of cognitive and physical decline
 
+[![DOI](https://zenodo.org/badge/841327944.svg)](https://doi.org/10.5281/zenodo.15011325)
+
+
 ## 1. Simulation work assessing two-wave models of change for longitudinal genetic effect estimation
 
 Functions used to run the simulations:
